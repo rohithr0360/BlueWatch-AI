@@ -1,5 +1,5 @@
 
-# BlueWatch.ai: Towards a future where our waters aren't choking on plastic
+# BlueWatch.ai: Towards A Future Where Our Waters Aren't Choking On Plastic
 
 ## Introduction
 
