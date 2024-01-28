@@ -1,11 +1,13 @@
 
-# BlueWatch: Towards a future where waters aren't choking on plastic
+# BlueWatch.ai: Towards a future where our waters aren't choking on plastic
 
-Welcome to BlueWatch, an innovative AI model developed using YOLOv8 object detection algorithm. BlueWatch aims to detect the presence of plastic in both the surface and depth of the oceans. As aquatic plastic pollution poses a significant threat to marine species and human consumption, our model steps in to address this critical issue.
+## Introduction
+
+Welcome to BlueWatch.ai, an advanced system designed to address the critical issue of plastic pollution in water bodies. BlueWatch.ai combines cutting-edge artificial intelligence with robotic integration to detect, collect, and remove waste plastic from oceans and other water sources.
 
 ## Project Overview
 
-Aquatic plastic pollution is a major environmental concern, affecting marine life and ecosystems worldwide. BlueWatch is designed to contribute to the mitigation of this issue by providing accurate detection of plastic debris in oceanic environments.
+Plastic pollution in water bodies poses a significant threat to marine life and ecosystems worldwide. BlueWatch.ai goes beyond traditional AI models by offering seamless integration with robotic hardware, enabling efficient detection and removal of waste plastic. By harnessing the power of technology, BlueWatch.ai aims to mitigate the impact of plastic pollution and safeguard our aquatic environments for future generations.
 
 ## Features
 
@@ -16,10 +18,12 @@ Aquatic plastic pollution is a major environmental concern, affecting marine lif
 
 ## Workflow
 
-1. **Explore Statistics:** Visit our React-based website to explore statistics and learn about the environmental impact of plastic pollution in oceans.
-2. **Train the Model:** Utilize the Flask web page to test our AI model by providing sample videos. Experience the accuracy of BlueWatch as it locates plastic debris in real-time footage.
-3. **Integration with Robotics:** Consider the significant impact of integrating BlueWatch with robotic hardware, enhancing its capabilities and effectiveness in removing plastic from oceanic environments.
-
+1. **Data Acquisition**: BlueWatch collects diverse oceanic imagery and video data for model training and testing. This curated dataset serves as the foundation for accurate plastic detection algorithms.
+2. **Model Training**: Utilizing the acquired dataset, BlueWatch trains the YOLOv8 algorithm to detect plastic debris with high precision. Through iterative learning, the algorithm refines its capabilities for enhanced performance.
+3. **Integration Setup**: BlueWatch configures Flask backend and React frontend for seamless user interaction and data processing. This integration ensures a user-friendly interface and efficient data management.
+4. **Deployment on EC2**: BlueWatch deploys on the EC2 platform for scalable and reliable performance. Leveraging EC2's robust infrastructure enables consistent operation and accommodates varying workloads.
+5. **Monitoring and Optimization**: BlueWatch implements continuous monitoring to oversee system performance. Through analysis and optimization, BlueWatch enhances efficiency and accuracy in plastic detection, ensuring effective environmental conservation efforts.
+   
 ## Installation
 
 1. Clone the repository:
@@ -40,11 +44,11 @@ Aquatic plastic pollution is a major environmental concern, affecting marine lif
 
 ## Deployment
 
-BlueWatch is deployed on the EC2 hosting platform, ensuring reliable access and scalability for users worldwide.
+In our AI model, deployment with EC2 (Amazon Elastic Compute Cloud) plays a pivotal role in ensuring scalable and reliable performance. Leveraging the robust infrastructure provided by EC2, we seamlessly deploy BlueWatch for real-time plastic detection and removal in water bodies. With EC2's flexible instance types and features like auto-scaling, our system can adapt to varying workloads, maintaining high availability and efficiency.
 
 ## Conclusion
 
-BlueWatch has the potential to revolutionize the way we monitor and address aquatic plastic pollution. By providing accurate and real-time detection capabilities, our system empowers environmentalists, policymakers, and communities to take proactive measures in protecting our oceans and marine life.
+BlueWatch has the potential to revolutionize the way we monitor and address aquatic plastic pollution. By combining AI technology with robotic integration, we can effectively detect, collect, and remove waste plastic, preserving marine life and ecosystems for future generations.
 
 ## License
 
