@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCEAN vibes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="/staticFiles/fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="/staticFiles/css/magnific-popup.css"> 
+    <link rel="stylesheet" href="/staticFiles/css/templatemo-ocean-vibes.css"> 
+    <style>
+        #inline-popups {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh; /* Adjust the height as needed */
+        }
+        .tm-nav-item {
+            margin: 0 20px; /* Adjust the spacing between navigation items */
+        }
+    </style>
+</head>
+<body style="background-image: url('ocean_bck.jpeg'); background-size: cover; background-position: center center; background-repeat: no-repeat; margin: 0; padding: 0;"> 
+    <header class="tm-site-header">
+        <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">BlueWatch.ai</span></h1>
+    </header>
+
+    <!-- Video banner 400 px height -->
+    <div class="tm-container">
+        <nav class="tm-main-nav">
+            <ul id="inline-popups">
+                <li class="tm-nav-item">
+                    <a href="#upload" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Upload Video
+                        <i class="fas fa-3x fa-upload"></i>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#about" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Try Sample Video
+                        <i class="fas fa-3x fa-tint"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Popup itself -->
+        <div id="upload" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                Return
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="tm-row tm-intro-row">
+                <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+                    <input type="file" name="video" accept="video/mp4">
+                    <input type="submit" value="Upload" id="uploadButton">
+                    
+                </form>
+                <div id="uploadStatus"></div>
+            </div> 
+        </div>
+        
+        <div id="about" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                Return
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="tm-row tm-intro-row">
+                <form action="/upload_sample" method="get" enctype="multipart/form-data">
+                    <input type="submit" value="Detect Sample Video">
+                </form>
+            </div> 
+        </div>
+
+        <script src="/staticFiles/js/jquery-3.4.1.min.js"></script>
+        <script src="/staticFiles/js/imagesloaded.pkgd.min.js"></script>
+        <script src="/staticFiles/js/isotope.pkgd.min.js"></script>
+        <script src="/staticFiles/js/jquery.magnific-popup.min.js"></script>    
+        <script src="/staticFiles/js/templatemo-script.js"></script>
+
+        <script>
+            document.getElementById('uploadForm').addEventListener('submit', function () {
+                document.getElementById('uploadButton').setAttribute('disabled', 'true');
+                document.getElementById('uploadStatus').innerHTML = '   Please wait ...';
+            });
+        </script>
+    </body>
+    </html>

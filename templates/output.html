@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OCEAN vibes </title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
+    <link rel="stylesheet" href="/staticFiles/fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="/staticFiles/css/magnific-popup.css"> 
+    <link rel="stylesheet" href="/staticFiles/css/templatemo-ocean-vibes.css"> 
+<!--
+    
+TemplateMo 554 Ocean Vibes
+
+https://templatemo.com/tm-554-ocean-vibes
+
+-->
+</head>
+<body>
+    <header class="tm-site-header">
+        <h1 class="tm-mt-0 tm-mb-15"><span class="tm-color-primary">OCEAN</span> <span class="tm-color-gray-2">vibes</span></h1>
+        <em class="tm-tagline tm-color-light-gray">simple and effective design</em>
+    </header>
+
+    <!-- Video banner 400 px height -->
+    <div id="tm-video-container">
+        <video autoplay muted loop id="tm-video">
+            <source src="/staticFiles/video/ocean-sea-wave-video.mp4" type="video/mp4">
+        </video>  
+        <i id="tm-video-control-button" class="fas fa-pause"></i>
+    </div>
+    <div class="tm-container">
+        <nav class="tm-main-nav">
+            <ul id="inline-popups">
+                <li class="tm-nav-item">
+                    <a href="#upload" data-effect="mfp-move-from-top" class="tm-nav-link">
+                        Review Video
+                        <i class="fas fa-3x fa-upload"></i>
+                    </a>
+                </li>
+                <li class="tm-nav-item">
+                    <a href="#gallery" data-effect="mfp-move-from-top" class="tm-nav-link" id="tm-gallery-link">
+                        Detect
+                        <i class="far fa-3x fa-images"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        <!-- Popup itself -->
+        <div id="upload" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                Return
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="tm-row tm-intro-row">
+                <!-- Create a form with action attribute set to your Flask route -->
+                <form action="/process" method="post">
+                    <!-- You can add any additional input fields or content here -->
+                    <!-- For simplicity, just the submit button is shown -->
+                    <input type="submit" value="Redirect">
+                </form>
+            </div>
+        </div>
+        
+
+        <div id="gallery" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                Return Home
+                <i class="fas fa-times"></i>
+            </a>
+            <div class="tm-row tm-gallery-row">
+                <div class="tm-gallery">
+                    <div class="tm-gallery-container">                        
+                        <figure class="effect-chico tm-gallery-item portrait">
+                            <img src="img/gallery/portrait-01.jpg" alt="Image"/>
+                            			
+                        </figure>
+                        <figure class="effect-chico tm-gallery-item nature">
+                            <img src="img/gallery/nature-01.jpg" alt="Image"/>
+                            			
+                        </figure>
+                        <figure class="effect-chico tm-gallery-item animal">
+                            <img src="img/gallery/animal-01.jpg" alt="Image"/>
+                            			
+                        </figure>
+                        <figure class="effect-chico tm-gallery-item building">
+                            <img src="img/gallery/building-01.jpg" alt="Image"/>
+                            			
+                        </figure>
+                        <figure class="effect-chico tm-gallery-item portrait">
+                            <img src="img/gallery/portrait-02.jpg" alt="Image"/>
+                            			
+                        </figure>
+                        <figure class="effect-chico tm-gallery-item nature">
+                            <img src="img/gallery/nature-02.jpg" alt="Image"/>
+                            			
+                        </figure>
+                        <figure class="effect-chico tm-gallery-item animal">
+                            <img src="img/gallery/animal-02.jpg" alt="Image"/>
+                            </figure>
+                        <figure class="effect-chico tm-gallery-item building">
+                            <img src="img/gallery/building-02.jpg" alt="Image"/>
+                            </figure>
+                        
+                <!-- Gallery navigation and description -->
+                <div class="tm-col tm-gallery-right">
+                    <h2 class="tm-color-primary tm-mt-35 tm-page-title">Gallery</h2>
+                    <div class="tm-gallery-right-inner">
+                        <ul class="tm-gallery-links">
+                            <li>
+                                <a href="#" class="active tm-gallery-link" data-filter="*">
+                                    <i class="fas fa-layer-group tm-gallery-link-icon"></i>
+                                    All
+                                </a>
+                            </li>
+                            <li>
+   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div id="about" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+            <a href="#" class="tm-close-popup">
+                return home
+                <i class="fas fa-times"></i>
+            </a>
+            <h2 class="tm-color-primary tm-about-col tm-mb-40 tm-page-title">About Ocean Vibes</h2>
+            <div class="tm-row tm-about-row">
+                <div class="tm-col tm-about-col tm-about-left">                    
+                    <img src="img/about.jpg" alt="Image" class="tm-mb-30">
+                    <p class="tm-mb-40">
+                        Suspendisse sit amet pellentesque nunc. Vivamus fringilla
+                        tellus finibus lacus blandit, siet amet aliquet augue sagittis.
+                        Duis nec auctor felis, nec ornare ex. In non ante ligula.
+                    </p>
+                    <p class="tm-mb-40">
+                        Curabitur non augue dignissim est pulvibar lobortis. Nunc
+                        vulputate, mi vel cursus mollis, justo mauris rutrum dui, id
+                        egestas ante ligula id nunc. Interdum et malesuada fames
+                        ac ante ipsum primis in faucibus.
+                    </p>
+                </div>
+                <div class="tm-col tm-about-col">
+                    <p class="tm-mb-40">
+                        You are NOT allowed to re-distribute this template ZIP file
+                        on any website that <span class="tm-color-primary">collects and reposts</span> free templates
+                        from many different websites.
+                    </p>
+                    <p class="tm-mb-40">
+                        Pellentesque vitae ipsum vel risus molestie cursus nec quis
+                        lectus. Duis egestas lorem eu nisi finibus, sit amet
+                        elementum lacus pretium. In tempor felis vitae nulla feugiat aliquam.
+                    </p>
+                    <p class="tm-mb-40">
+                If you need a working HTML contact form, 
+                please visit our <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact page</a>. </p>
+                    <a href="#" class="tm-btn tm-btn-primary mfp-prevent-close tm-btn-contact tm-mb-40">
+                        Contact Us
+                    </a>
+                </div>               
+            </div>
+        </div>
+    </div>
+
+    <script src="/staticFiles/js/jquery-3.4.1.min.js"></script>
+    <script src="/staticFiles/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/staticFiles/js/isotope.pkgd.min.js"></script>
+    <script src="/staticFiles/js/jquery.magnific-popup.min.js"></script>    
+    <script src="/staticFiles/js/templatemo-script.js"></script>
+</body>
+</html>
