@@ -17,7 +17,7 @@ Aquatic plastic pollution is a major environmental concern, affecting marine lif
 ## Workflow
 
 1. **Explore Statistics:** Visit our React-based website to explore statistics and learn about the environmental impact of plastic pollution in oceans.
-2. **Test the Model:** Utilize the Flask web page to test our AI model by providing sample videos. Experience the accuracy of BlueWatch as it locates plastic debris in real-time footage.
+2. **Train the Model:** Utilize the Flask web page to test our AI model by providing sample videos. Experience the accuracy of BlueWatch as it locates plastic debris in real-time footage.
 3. **Integration with Robotics:** Consider the significant impact of integrating BlueWatch with robotic hardware, enhancing its capabilities and effectiveness in removing plastic from oceanic environments.
 
 ## Installation
